@@ -1,3 +1,23 @@
 page-home {
-
+ 
+ ion-footer{
+     font-size: 1em;
+     background-color:  map-get($colors, light);
+     color: seashell;
+ }
+ ion-item-sliding{
+     margin-top: 10px;
+ }
+ .holding{
+     background-color: #f9f9f9;
+     text-transform: uppercase;
+     .amount{
+         font-size: 0.7em;
+     }
+ }
+ .value{
+     margin-top: 10px;
+     color:map-get($colors,secondary);
+     font-size: 1.2em;
+ }
 }
