@@ -6,8 +6,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import {IonicStorageModule} from '@ionic/storage' ; 
 import {HttpClientModule} from '@angular/common/http';
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
-import { GitProvider } from '../providers/git/git';
+//import { HomePage } from '../pages/home/home';
+//import { GitProvider } from '../providers/git/git';
 import { HoldingsProvider } from '../providers/holdings/holdings';
 
 @NgModule({
@@ -30,7 +30,7 @@ import { HoldingsProvider } from '../providers/holdings/holdings';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    GitProvider,
+  //  GitProvider,
     HoldingsProvider
   ]
 })
