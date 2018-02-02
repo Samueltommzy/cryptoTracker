@@ -1,3 +1,16 @@
 page-new-crypto-coin {
-
+ionic-footer{
+    font-size: 0.7em;
+    color: #474747;
+    background-color: map-get($colors,light)
+}
+.error-message{
+   background-color: map-get($colors, danger );
+   color: #fff;
+   border: 1px solid #c0329b;
+   padding: 10px;
+}
+ionic-spinner{
+    margin-left: 20px;
+}
 }
