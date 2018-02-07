@@ -14,3 +14,23 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+.toolbar-title{
+    font-family: 'Courier New', sans-serif;
+    font-weight: bold;
+}
+.warning-text{
+    color: map-get($colors,danger) !important;
+ }
+// .background{
+//     background: url('/home/samuel/Documents/ionic/cryptoTracker/cryptoTracker/src/assets/imgs/crypto.jpg') no-repeat;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     background-position: center;
+//     width: 80%;
+//     height: 246px;
+//     margin: auto;
+//     z-index: 2;
+//     position: relative;
+//      font-size: 0.8em;
+//       padding: 20px;
+// }

@@ -1,5 +1,5 @@
 page-home {
- 
+ background: url(/home/samuel/Documents/ionic/cryptoTracker/cryptoTracker/src/assets/imgs/crypto.jpg);
  ion-footer{
      font-size: 1em;
      background-color:  map-get($colors, light);
@@ -20,4 +20,16 @@ page-home {
      color:map-get($colors,secondary);
      font-size: 1.2em;
  }
+//  .body{
+
+//     background: url(/home/samuel/Documents/ionic/cryptoTracker/cryptoTracker/src/assets/imgs/crypto.jpg);
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     background-position: center;
+//     width: 80%;
+//     height: 246px;
+//     margin: auto;
+//     z-index: 2;
+//     position: relative;
+//  }
 }
